@@ -1,7 +1,6 @@
 # FerroCNN
 CNN-MagneticParameterPrediction
 
-Thanks! Here's the updated `README.md` in **English**, reflecting the correct structure, absence of a `requirements.txt`, presence of Grad-CAM results in `examples/`, and a **restrictive license**:
 
 ---
 
@@ -27,8 +26,7 @@ The model is fine-tuned on a custom dataset and evaluated on previously unseen c
 FerroCNN/
 ├── data/                        # Example images from the dataset
 │   └── sample_*.png
-├── models/
-│   └── ferro_effnetb0.pth      # Trained model weights
+│   └── target.xlsx
 ├── notebooks/
 │   └── IIM_FERRO_CNN.ipynb     # Jupyter Notebook with full pipeline
 ├── examples/                   # Grad-CAM visualization results
@@ -58,7 +56,7 @@ jupyter notebook notebooks/IIM_FERRO_CNN.ipynb
 
 3. Download the trained model weights:
 
-[📥 Download EfficientNet-B0 weights](https://xxxxxxxxxx)
+[📥 Download EfficientNet-B0 weights](https://drive.google.com/file/d/1b7SEAk3zkkBlTRztkKxI_8Eo52QAcQeF/view?usp=sharing)
 
 ---
 
@@ -66,8 +64,8 @@ jupyter notebook notebooks/IIM_FERRO_CNN.ipynb
 
 | Metric | Test Set | New Unseen Set |
 | -----: | -------: | -------------: |
-|    MAE |     0.09 |         \~0.10 |
-|    MSE |     0.02 |         \~0.03 |
+|    MAE |     0.09 |         \~0.12 |
+|    MSE |     0.02 |         \~0.02 |
 
 Grad-CAM heatmaps (see `examples/`) confirm the model attends to physically meaningful features like particle chains and structural alignment patterns.
 
@@ -88,5 +86,5 @@ This repository is protected by a **custom restrictive license**.
 
 ---
 
-Let me know if you’d like to also include a badge (e.g. for citation or versioning) or generate this as a downloadable file.
+
 
