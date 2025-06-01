@@ -25,7 +25,7 @@ The model is fine-tuned on a custom dataset and evaluated on previously unseen c
 ```
 FerroCNN/
 ├── data/                        # Example images from the dataset
-│   └── sample_*.jpg
+│   └── *.jpg
 │   └── target.xlsx
 ├── notebooks/
 │   └── IIM_FERRO_CNN.ipynb     # Jupyter Notebook with full pipeline
